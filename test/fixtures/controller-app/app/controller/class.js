@@ -42,4 +42,8 @@ module.exports = class HomeController {
   get nofunction() {
     return 'done';
   }
+
+  get request() {
+    return this.ctx.request;
+  }
 };
